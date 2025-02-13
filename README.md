@@ -25,7 +25,7 @@ This is a **full-stack machine learning web application** that classifies iris f
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/ArnoldMathew1998/iris-flower-classification.git
+git clone https://github.com/ArnoldMathew1998/Iris-Flower-Classification.git
 cd iris-flower-classification
 ```
 
