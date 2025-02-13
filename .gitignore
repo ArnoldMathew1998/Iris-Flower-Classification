@@ -1,0 +1,15 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore Node modules (frontend)
+Frontend/iris-classifier/node_modules/
+
+# Ignore Docker build artifacts
+*.log
+*.pid
+.env
+*.pyc
+Dockerfile
+docker-compose.override.yml
+

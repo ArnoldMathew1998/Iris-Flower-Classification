@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./Backend  # ✅ Points to the correct backend folder
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./Backend:/app
+    restart: always
+
+  frontend:
+    build: ./Frontend/iris-classifier  # ✅ Points to the correct frontend folder
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    volumes:
+      - ./Frontend/iris-classifier:/app
+    restart: always
